@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    background-color: purple;
+}
+
+.menu ul {
+    position: fixed;
+
+    width: 10%;
+    height: 100%;
+
+    list-style: none;
+
+    background-color: #484848;
+}
+
+.menu button {
+    width: 100%;
+
+    padding: 10px;
+
+    font-size: 30px;
+
+    background-color: #484848;
+
+    border: none;
+}
+
+.menu button:hover {
+    background-color: black;
+}
+
+.menu a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.index {
+    width: 60%;
+    height: 900px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-radius: 30px;
+
+    font-size: 20px;
+
+    background-color: yellow;
+}
+
+.index ul {
+    list-style: none;
+}
+
+.index button {
+    padding: 10px;
+
+    background-color: purple;
+
+    border-radius: 30px;
+
+    font-size: 20px;
+}
+
+.index a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.botaoShow {
+    width: 100px;
+    height: 50px;
+}
+
+.table {
+    width: 90%;
+    height: auto;
+
+    margin: auto;
+
+    background-color: #484848;
+}
+
+.nome {
+    background-color: antiquewhite;
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 50px;
+
+    width: 300px;
+    font-size: 50px;
+}
